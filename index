@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Marks Manager</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">SM</div>
+            <div>
+                <h2>Marks Manager</h2>
+                <span>Student Management</span>
+            </div>
+        </div>
+
+        <nav class="navigation">
+
+            <a href="index.html" class="nav-link active">
+                <span>▦</span>
+                Dashboard
+            </a>
+
+            <a href="students.html" class="nav-link">
+                <span>👥</span>
+                Students
+            </a>
+
+            <a href="add-student.html" class="nav-link">
+                <span>＋</span>
+                Add Student
+            </a>
+
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>Student Marks Manager</p>
+            <small>Version 1.0</small>
+        </div>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Top Bar -->
+        <header class="topbar">
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <div>
+                <h1>Dashboard</h1>
+                <p>Welcome back! Here's your overview.</p>
+            </div>
+
+            <div class="profile">
+                <div class="profile-avatar">IV</div>
+
+                <div class="profile-info">
+                    <strong>Administrator</strong>
+                    <span>Admin</span>
+                </div>
+            </div>
+
+        </header>
+
+
+        <!-- Dashboard -->
+        <section class="dashboard">
+
+            <!-- Statistics -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-icon students-icon">👥</div>
+
+                    <div>
+                        <span>Total Students</span>
+                        <h2>120</h2>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <div class="stat-icon marks-icon">📊</div>
+
+                    <div>
+                        <span>Total Marks</span>
+                        <h2>9,360</h2>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <div class="stat-icon average-icon">📈</div>
+
+                    <div>
+                        <span>Average Mark</span>
+                        <h2>78%</h2>
+                    </div>
+                </div>
+
+
+                <div class="stat-card">
+                    <div class="stat-icon pass-icon">✓</div>
+
+                    <div>
+                        <span>Pass Rate</span>
+                        <h2>92%</h2>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Quick Actions -->
+            <section class="section-card">
+
+                <div class="section-header">
+                    <div>
+                        <h2>Quick Actions</h2>
+                        <p>Common tasks</p>
+                    </div>
+                </div>
+
+                <div class="quick-actions">
+
+                    <a href="add-student.html" class="action-card">
+                        <div class="action-icon">＋</div>
+
+                        <div>
+                            <h3>Add Student</h3>
+                            <p>Register a new student</p>
+                        </div>
+                    </a>
+
+
+                    <a href="students.html" class="action-card">
+                        <div class="action-icon">👥</div>
+
+                        <div>
+                            <h3>View Students</h3>
+                            <p>View all registered students</p>
+                        </div>
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- Recent Students -->
+            <section class="section-card">
+
+                <div class="section-header">
+
+                    <div>
+                        <h2>Recent Students</h2>
+                        <p>Recently added students</p>
+                    </div>
+
+                    <a href="students.html" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="table-container">
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Student</th>
+                                <th>Class</th>
+                                <th>Subject</th>
+                                <th>Mark</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <div class="student-cell">
+                                        <div class="student-avatar">IV</div>
+                                        <span>Ivan Wetaka</span>
+                                    </div>
+                                </td>
+
+                                <td>S.5 X</td>
+                                <td>ICT</td>
+                                <td>78</td>
+
+                                <td>
+                                    <span class="grade grade-a">A</span>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <div class="student-cell">
+                                        <div class="student-avatar">SA</div>
+                                        <span>Sarah Namukasa</span>
+                                    </div>
+                                </td>
+
+                                <td>S.5 X</td>
+                                <td>ICT</td>
+                                <td>64</td>
+
+                                <td>
+                                    <span class="grade grade-b">B</span>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <div class="student-cell">
+                                        <div class="student-avatar">JO</div>
+                                        <span>John Okello</span>
+                                    </div>
+                                </td>
+
+                                <td>S.5 X</td>
+                                <td>ICT</td>
+                                <td>51</td>
+
+                                <td>
+                                    <span class="grade grade-c">C</span>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <div class="student-cell">
+                                        <div class="student-avatar">MA</div>
+                                        <span>Mary Achieng</span>
+                                    </div>
+                                </td>
+
+                                <td>S.5 X</td>
+                                <td>ICT</td>
+                                <td>42</td>
+
+                                <td>
+                                    <span class="grade grade-d">D</span>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <script>
+
+        const menuBtn = document.getElementById("menuBtn");
+        const sidebar = document.getElementById("sidebar");
+
+        menuBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("open");
+        });
+
+    </script>
+
+</body>
+</html>
